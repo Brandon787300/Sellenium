@@ -44,11 +44,11 @@ public class O2_IF {
         //------------------------------------------------
         if (validarInput(opcion)) {
             if (opcion == 'A') {
-                System.out.printf("El area del radio %");
+                System.out.printf("El area del radio %.3f es %.3f", radio, calcularArea(radio));
             } else if (opcion == 'B') {
-
+                System.out.printf("El area del radio %.3f es %.3f", radio, calcularPerimetro(radio));
             } else if (opcion == 'C') {
-
+                System.out.printf("El area del radio %.3f es %.3f y el perimetro es %.3f", radio, calcularArea(radio), calcularPerimetro(radio));
             }
         } else {
             System.out.printf("Opcion invalida intentalo de nuevo");
