@@ -1,8 +1,8 @@
-package Bases;
+package BasicJava;
 
 import java.util.Random;
 
-public class Random_Int_Double_05 {
+public class O5_Random_Int_Double {
     public static void main(String[] args) {
         //_________Numeros aleatorios INT___________
 

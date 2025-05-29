@@ -1,6 +1,6 @@
-package Bases;//---Operaciones matematicas---
+package BasicJava;//---Operaciones matematicas---
 
-public class MathFuntions_04 {
+public class O4_MathFuntions {
     public static void main(String[] args) {
         //Ejercicio 1
         final var velocidadInicial = 15.24;

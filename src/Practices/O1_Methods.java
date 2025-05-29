@@ -2,7 +2,7 @@ package Practices;
 
 import java.util.Random;
 
-public class PracticeMethods_01 {
+public class O1_Methods {
     public static void main(String[] args) {
         //Instancia para usar el random como parametro
         final var random = new Random();

@@ -1,6 +1,6 @@
-package Bases;
+package BasicJava;
 
-public class StringsConcat_03 {
+public class O3_StringsConcat {
     public static void main(String[] args) {
 
         //Mostrar datos en los sout----------------

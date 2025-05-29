@@ -1,6 +1,6 @@
-package Bases;
+package BasicJava;
 
-public class VariablesYConstantes_02 {
+public class O2_VariablesYConstantes {
     public static void main(String[] args) {
         //Tipos de datos en java
         /*

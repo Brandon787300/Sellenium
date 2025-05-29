@@ -1,8 +1,8 @@
-package Bases;
+package BasicJava;
 
 import java.util.Scanner;
 
-public class InputsScanner_07 {
+public class O7_InputsScanner {
     public static void main(String[] args) {
         //Inputs / Ingreso de datos
 

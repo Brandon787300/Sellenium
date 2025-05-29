@@ -1,6 +1,6 @@
-package Bases;
+package BasicJava;
 
-public class Methods_06 {
+public class O6_Methods {
     public static void main(String[] args) {
         //__________METODOS_________
         //Llamar  los metodos

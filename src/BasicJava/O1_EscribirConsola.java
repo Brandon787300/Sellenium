@@ -1,6 +1,6 @@
-package Bases;
+package BasicJava;
 
-public class EscribirConsola_01 {
+public class O1_EscribirConsola {
     public static void main(String[] args) {
         /*
         1. Creacion, edicion y eliminacion de clases

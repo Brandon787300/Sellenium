@@ -1,6 +1,8 @@
+package BasicJava;
+
 import java.util.Scanner;
 
-public class Main {
+public class O11_IFyELSE {
     public static void main(String[] args) {
 
 
