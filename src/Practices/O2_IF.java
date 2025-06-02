@@ -37,22 +37,22 @@ public class O2_IF {
 
         // __________________EJERCICIO 3__________________
 
-        final var radio = ScannerManager.leerDouble(scanner, "Digita el radio");
-        imprimirMenu();
-        final var opcion = ScannerManager.leerChar(scanner, "Digita la opcion");
+//        final var radio = ScannerManager.leerDouble(scanner, "Digita el radio");
+//        imprimirMenu();
+//        final var opcion = ScannerManager.leerChar(scanner, "Digita la opcion");
 
         //------------------------------------------------
-        if (validarInput(opcion)) {
-            if (opcion == 'A') {
-                System.out.printf("El area del radio %.3f es %.3f", radio, calcularArea(radio));
-            } else if (opcion == 'B') {
-                System.out.printf("El area del radio %.3f es %.3f", radio, calcularPerimetro(radio));
-            } else if (opcion == 'C') {
-                System.out.printf("El area del radio %.3f es %.3f y el perimetro es %.3f", radio, calcularArea(radio), calcularPerimetro(radio));
-            }
-        } else {
-            System.out.printf("Opcion invalida intentalo de nuevo");
-        }
+//        if (validarInput(opcion)) {
+//            if (opcion == 'A') {
+//                System.out.printf("El area del radio %.3f es %.3f", radio, calcularArea(radio));
+//            } else if (opcion == 'B') {
+//                System.out.printf("El area del radio %.3f es %.3f", radio, calcularPerimetro(radio));
+//            } else if (opcion == 'C') {
+//                System.out.printf("El area del radio %.3f es %.3f y el perimetro es %.3f", radio, calcularArea(radio), calcularPerimetro(radio));
+//            }
+//        } else {
+//            System.out.printf("Opcion invalida intentalo de nuevo");
+//        }
 
 
     }
@@ -106,4 +106,9 @@ public class O2_IF {
     static double calcularPerimetro(double radio) {
         return 2 * Math.PI * radio;
     }
+
+    //-----------------------------------------------------------------
+    //Ejercicio 4
+
+
 }

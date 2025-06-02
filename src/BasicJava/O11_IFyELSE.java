@@ -33,4 +33,6 @@ public class O11_IFyELSE {
 
     //Funcion con operador ternario - Ejemplo 2
     //#2 Resumido
+    //final var mensaje = nota > 10 ? "APROBADO" : "DESAPROBADO";
+
 }
