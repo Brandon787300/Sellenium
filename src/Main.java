@@ -2,8 +2,8 @@ import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {
-        
-        //------------------Ejercicio 1----------------
+
+        //------------------Ejercicio 1------------------
         final var scanner = new Scanner(System.in);
         final var num1 = ScannerManager.leerInt(scanner, "Numero 1");
         final var num2 = ScannerManager.leerInt(scanner, "Numero 2");
