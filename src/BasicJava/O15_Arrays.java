@@ -1,7 +1,9 @@
+package BasicJava;
+
 import java.util.Arrays;
 import java.util.Random;
 
-public class Main {
+public class O15_Arrays {
     public static void main(String[] args) {
         //Arrays con valores iniciales
         final var arrayNombres = new String[]{"Carlos", "Jorge", "Mariana", "Rodrigo", "Jimena"};
