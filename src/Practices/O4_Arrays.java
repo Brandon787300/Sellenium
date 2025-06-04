@@ -13,15 +13,34 @@ public class O4_Arrays {
         //----------------------------------
 
         //--------Ejercicio 1--------
+//        final var tamanoArray = ScannerManager.leerInt(scanner, "Ingrese le tamaño del array");
+//        final var min = ScannerManager.leerInt(scanner, "Ingrese el min");
+//        final var max = ScannerManager.leerInt(scanner, "Ingrese el max");
+//        final var escalar = ScannerManager.leerInt(scanner, "Ingrese le escalar");
+//
+//        final var array = RandomUtilities.generarRandomArrayInt(tamanoArray, max, min, random);
+//        scanner.close();
+//
+//        final var arrayResultante = calcularProductoEscalar(tamanoArray, array, escalar);
+//        imprimirInformacion(array, arrayResultante);
+
+        //--------Ejercicio 2--------
+
+//        final var tamanoArray = ScannerManager.leerInt(scanner, "Ingrese le tamaño del array");
+//        final var min = ScannerManager.leerInt(scanner, "Ingrese el min");
+//        final var max = ScannerManager.leerInt(scanner, "Ingrese el max");
+//        final var array1 = RandomUtilities.generarRandomArrayInt(tamanoArray, max, min, random);
+//        final var array2 = RandomUtilities.generarRandomArrayInt(tamanoArray, max, min, random);
+//
+//        final var arraySuma = calcularSumaArray(array1, array2, tamanoArray);
+//        imprimirInformacion(array1, array2, arraySuma);
+
+        //--------Ejercicio 3--------
         final var tamanoArray = ScannerManager.leerInt(scanner, "Ingrese le tamaño del array");
         final var min = ScannerManager.leerInt(scanner, "Ingrese el min");
         final var max = ScannerManager.leerInt(scanner, "Ingrese el max");
-        final var escalar = ScannerManager.leerInt(scanner, "Ingrese le escalar");
-
-        final var array = RandomUtilities.generarRandomArrayInt(tamanoArray, min, max, random);
-        scanner.close();
-
-        final var arrayResultante = calcularProductoEscalar(tamanoArray, array, escalar);
+        final var array1 = RandomUtilities.generarRandomArrayInt(tamanoArray, max, min, random);
+        final var array2 = RandomUtilities.generarRandomArrayInt(tamanoArray, max, min, random);
 
 
     }
@@ -30,26 +49,48 @@ public class O4_Arrays {
     static int[] calcularProductoEscalar(int tamanoArray, int[] array, int escalar) {
         final var arrayResultante = new int[tamanoArray];
 
+        for (var i = 0; i < tamanoArray; i++) {
+            arrayResultante[i] = array[i] * escalar;
 
-//        for (var i = 0; i < ; i++) {
-//
-//        } (){
-//            int i;
-//            arrayResultante[i] = array[i] * escalar;
-//            i++;
-//        }
+        }
 
         return arrayResultante;
     }
 
     static void imprimirInformacion(int[] array, int[] arrayResultante) {
-        for (var dato : array) {
-            System.out.printf("Array normal: $s", Arrays.toString(array));
-        }
 
+        System.out.printf("Array normal: %s%n", Arrays.toString(array));
+        System.out.printf("Array resultante: %s%n", Arrays.toString(arrayResultante));
 
-        for (var dato : arrayResultante) {
-            System.out.printf("Array resultante: %s", Arrays.toString(arrayResultante));
-        }
     }
+
+    //--------Ejercicio 2--------
+    static int[] calcularSumaArray(int[] array1, int[] array2, int tamanoArray) {
+        final var arraySuma = new int[tamanoArray];
+
+        for (var i = 0; i < tamanoArray; i++) {
+            arraySuma[i] = array1[i] + array2[i];
+        }
+
+        return arraySuma;
+    }
+
+    static void imprimirInformacion(int[] array1, int[] array2, int[] arraySuma) {
+        System.out.printf("Primer array %s%n", Arrays.toString(array1));
+        System.out.printf("Segundo array array %s%n", Arrays.toString(array2));
+        System.out.printf("Suma de los dos arrays %s%n", Arrays.toString(arraySuma));
+    }
+
+    //--------Ejercicio 3--------
+    static double[] calcularPromedioPonderado(int[] array1, int[] array2) {
+        final var arrayPromedio = new double[array1.length];
+
+
+        for (var i = 0; i < array2.length; i++) {
+            arrayPromedio[i] = array1[i] * array2[i];
+        }
+        return arrayPromedio;
+        
+    }
+
 }
