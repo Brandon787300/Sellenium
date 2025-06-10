@@ -12,14 +12,14 @@ public class O2_IF {
         // __________________EJERCICIO 1__________________
         //Conseguir num
 //        final var scanner = new Scanner(System.in);
-//        final var numIngreso = ScannerManager.leerInt(scanner, "Ingrese un numero de 1 - 6");
+//        final var numIngreso = Main.ScannerManager.leerInt(scanner, "Ingrese un numero de 1 - 6");
 //
 //        //Ver que sea un num del 1 - 6
 //        final var numVerificado = validarNumero(numIngreso);
 //
 //
 //        //Generar num random
-//        final var numRan = RandomUtilities.generarRandomInt(6, 1, new Random());
+//        final var numRan = Utilities.RandomUtilities.generarRandomInt(6, 1, new Random());
 //        if (numVerificado == false) {
 //            System.out.printf("%nNumero no valido intente de nuevo");
 //        } else {
@@ -30,16 +30,16 @@ public class O2_IF {
         // __________________EJERCICIO 2__________________
 
         //Conseguir prestamo y calcular extra
-//        final var prestamo = ScannerManager.leerDouble(scanner, "Ingrese el prestamo a sacar");
+//        final var prestamo = Main.ScannerManager.leerDouble(scanner, "Ingrese el prestamo a sacar");
 //        final var montoExtra = calcularMonto(prestamo);
 //
 //        imprimirResultado(prestamo, montoExtra);
 
         // __________________EJERCICIO 3__________________
 
-//        final var radio = ScannerManager.leerDouble(scanner, "Digita el radio");
+//        final var radio = Main.ScannerManager.leerDouble(scanner, "Digita el radio");
 //        imprimirMenu();
-//        final var opcion = ScannerManager.leerChar(scanner, "Digita la opcion");
+//        final var opcion = Main.ScannerManager.leerChar(scanner, "Digita la opcion");
 
         //------------------------------------------------
 //        if (validarInput(opcion)) {

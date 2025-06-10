@@ -49,11 +49,11 @@ public class O12_SwitchYEnums {
 //        };
 
         //------------------Ejercicio 1----------------
-//        final var num1 = ScannerManager.leerInt(scanner, "Numero 1");
-//        final var num2 = ScannerManager.leerInt(scanner, "Numero 2");
+//        final var num1 = Main.ScannerManager.leerInt(scanner, "Numero 1");
+//        final var num2 = Main.ScannerManager.leerInt(scanner, "Numero 2");
 //
 //        imPrimirMenu();
-//        final var opcion = ScannerManager.leerChar(scanner, "Que desea realizar?");
+//        final var opcion = Main.ScannerManager.leerChar(scanner, "Que desea realizar?");
 //        final var resultado = switch (opcion) {
 //            case 'A', 'a' -> calcularSuma(num1, num2);
 //            case 'B', 'b' -> calcularResta(num1, num2);

@@ -7,8 +7,8 @@ public class O9_MultiplosYPares {
         //Comparacion de datos - Ejercicio 1
         final var random = new Random();
 //
-//        final var a = RandomUtilities.generarRandomInt(100, 20, random);
-//        final var b = RandomUtilities.generarRandomInt(100, 20, random);
+//        final var a = Utilities.RandomUtilities.generarRandomInt(100, 20, random);
+//        final var b = Utilities.RandomUtilities.generarRandomInt(100, 20, random);
 //
 //        //Primera opcion - Guardando la variable
 //        final var aEsNegativo = esNegativo(a);

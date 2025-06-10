@@ -1,3 +1,5 @@
+package Utilities;
+
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Random;
@@ -5,7 +7,7 @@ import java.util.Random;
 public class RandomUtilities {
 
 
-    static int generarRandomInt(int max, int min, Random random) {
+    public static int generarRandomInt(int max, int min, Random random) {
         final var numGenerado = random.nextInt(max - min + 1) + min;
         return numGenerado;
     }

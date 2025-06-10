@@ -48,16 +48,16 @@ public class O7_InputsScanner {
         //----------------------------------------------------------------
 
         //LLamando al ScannerMaganer para realizarlo mas facil
-//        final var numero = ScannerManager.leerInt(scanner, "Ingrese numero");
+//        final var numero = Main.ScannerManager.leerInt(scanner, "Ingrese numero");
 //        scanner.close();
 //
 //        System.out.printf("El numero es: %d%n", numero);
 
         //Ejercicio 3
 
-//        final var nombre = ScannerManager.leerString(scanner, "Ingrese su nombre");
-//        final var edad = ScannerManager.leerInt(scanner, "Ingrese su edad");
-//        final var estatura = ScannerManager.leerDouble(scanner, "Ingrese la estatura");
+//        final var nombre = Main.ScannerManager.leerString(scanner, "Ingrese su nombre");
+//        final var edad = Main.ScannerManager.leerInt(scanner, "Ingrese su edad");
+//        final var estatura = Main.ScannerManager.leerDouble(scanner, "Ingrese la estatura");
 //        imprimirResultado3(nombre, edad, estatura);
 //        scanner.close();
 

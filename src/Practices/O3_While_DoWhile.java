@@ -4,13 +4,13 @@ public class O3_While_DoWhile {
     public static void main(String[] args) {
         //--------Ejericico 1-------- Fibonacci
 //        final var scanner = new Scanner(System.in);
-//        final var n = ScannerManager.leerInt(scanner, "Ingrese cantidad numeros serie de fibonacci");
+//        final var n = Main.ScannerManager.leerInt(scanner, "Ingrese cantidad numeros serie de fibonacci");
 //        scanner.close();
 //        mostrarSerieFibonacci(n);
 
         //--------Ejericico 2-------- Capicua - igual en espejo  121, 555
 //        final var scanner = new Scanner(System.in);
-//        final var n = ScannerManager.leerInt(scanner, "Igrese numero a verificar su ess capicua");
+//        final var n = Main.ScannerManager.leerInt(scanner, "Igrese numero a verificar su ess capicua");
 //        scanner.close();
 //        final var nInvertido = invertirNumero(n);
 //        final var esCapicua = esCapicua(n, nInvertido);
@@ -20,7 +20,7 @@ public class O3_While_DoWhile {
         //--------Ejericico 3--------
 //        final var scanner = new Scanner(System.in);
 //
-//        final var n = ScannerManager.leerInt(scanner, "Ingrese un numeros para verificar si es primo");
+//        final var n = Main.ScannerManager.leerInt(scanner, "Ingrese un numeros para verificar si es primo");
 //        scanner.close();
 //
 //        final var esPrimo = esPrimo(n);

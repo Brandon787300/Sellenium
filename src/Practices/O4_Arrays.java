@@ -13,12 +13,12 @@ public class O4_Arrays {
         //----------------------------------
 
         //--------Ejercicio 1--------
-//        final var tamanoArray = ScannerManager.leerInt(scanner, "Ingrese le tamaño del array");
-//        final var min = ScannerManager.leerInt(scanner, "Ingrese el min");
-//        final var max = ScannerManager.leerInt(scanner, "Ingrese el max");
-//        final var escalar = ScannerManager.leerInt(scanner, "Ingrese le escalar");
+//        final var tamanoArray = Main.ScannerManager.leerInt(scanner, "Ingrese le tamaño del array");
+//        final var min = Main.ScannerManager.leerInt(scanner, "Ingrese el min");
+//        final var max = Main.ScannerManager.leerInt(scanner, "Ingrese el max");
+//        final var escalar = Main.ScannerManager.leerInt(scanner, "Ingrese le escalar");
 //
-//        final var array = RandomUtilities.generarRandomArrayInt(tamanoArray, max, min, random);
+//        final var array = Utilities.RandomUtilities.generarRandomArrayInt(tamanoArray, max, min, random);
 //        scanner.close();
 //
 //        final var arrayResultante = calcularProductoEscalar(tamanoArray, array, escalar);
@@ -26,11 +26,11 @@ public class O4_Arrays {
 
         //--------Ejercicio 2--------
 
-//        final var tamanoArray = ScannerManager.leerInt(scanner, "Ingrese le tamaño del array");
-//        final var min = ScannerManager.leerInt(scanner, "Ingrese el min");
-//        final var max = ScannerManager.leerInt(scanner, "Ingrese el max");
-//        final var array1 = RandomUtilities.generarRandomArrayInt(tamanoArray, max, min, random);
-//        final var array2 = RandomUtilities.generarRandomArrayInt(tamanoArray, max, min, random);
+//        final var tamanoArray = Main.ScannerManager.leerInt(scanner, "Ingrese le tamaño del array");
+//        final var min = Main.ScannerManager.leerInt(scanner, "Ingrese el min");
+//        final var max = Main.ScannerManager.leerInt(scanner, "Ingrese el max");
+//        final var array1 = Utilities.RandomUtilities.generarRandomArrayInt(tamanoArray, max, min, random);
+//        final var array2 = Utilities.RandomUtilities.generarRandomArrayInt(tamanoArray, max, min, random);
 //
 //        final var arraySuma = calcularSumaArray(array1, array2, tamanoArray);
 //        imprimirInformacion(array1, array2, arraySuma);
@@ -90,7 +90,7 @@ public class O4_Arrays {
             arrayPromedio[i] = array1[i] * array2[i];
         }
         return arrayPromedio;
-        
+
     }
 
 }

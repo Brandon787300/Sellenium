@@ -7,14 +7,14 @@ public class O14_While_DoWhile {
 
         //------------------Ejercicio 1---------------------------
 //       final var scanner = new Scanner(System.in);
-//        final var num1 = ScannerManager.leerInt(scanner, "Numero 1");
-//        final var num2 = ScannerManager.leerInt(scanner, "Numero 2");
+//        final var num1 = Main.ScannerManager.leerInt(scanner, "Numero 1");
+//        final var num2 = Main.ScannerManager.leerInt(scanner, "Numero 2");
 //        scanner.close();
 //        char opcion;
 //
 //        do {
 //            imPrimirMenu();
-//            opcion = ScannerManager.leerChar(scanner, "Que desea realizar?");
+//            opcion = Main.ScannerManager.leerChar(scanner, "Que desea realizar?");
 //            if (opcion != 'F' && opcion != 'f') { //Condicion de continuacion
 //                ejecutarOpcion(num1, num2, opcion);
 //            }
